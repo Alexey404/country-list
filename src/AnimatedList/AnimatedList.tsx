@@ -60,7 +60,7 @@ const FlagItem = memo((props: IFlagItemProps) => {
       <div className="name">{props.item.name_ru}</div>
 
       <div className="item-nav">
-        <Link href={"/flags/" + props.item.iso_code3}>
+        <Link href={"/" + props.item.iso_code3}>
           <button className="about-btn">Подробнее</button>
         </Link>
         <button
